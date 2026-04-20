@@ -1,7 +1,12 @@
 {
-  "name": "node-starter",
-  "private": true,
+  "name": "incident-report-system",
+  "version": "22.22.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "path": "^0.12.7"
   }
 }
